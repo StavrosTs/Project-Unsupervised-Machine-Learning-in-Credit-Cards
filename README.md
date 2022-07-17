@@ -1,32 +1,23 @@
-# Project-EDA---Spotify
-Data Analysis in Spotify Dataframe 2017-2021
+# Project-Unsupervised-Machine-Learning-in-Credit-Cards
+Credit Card Dataset For Clustering
 
-1. Cleaning Process
-    - Explore the dataset.
-    - The important emelents are 6, so i must breakdown the first column.
-    - Then i must isolate the elements so i can use them for my analysis.
-    - But first i must try clean my dataset and drop as little information as possible.
-    - So important categories are separated by # and their length must be 6. I always check their length and         make adjustments.
-    - When my lists of 6 elements are ready, i separate them and i transform them so they can be useful for my       analysis. Their indeces in lists are all the same so it's easy to breakdown the lists.
-    - At last, i keep only the columns that i will need for analysis and i create a new column of lists which         consists of the genres of each song. It's necessary for analysis phase.
-    - Let's proceed!
-   
-2. Analysis Process
-    - I am creating necessary columns which i will need for analysis.
-    - I need three different columns for year,month & day.
-    - Genres & their subdivisions are too many, so i simplify them.
-    - Then, i count each genre and i save my numbers in a dictionary.
-    - I use the dictionary for my first graph & i find top 10 genres.
-    - I isolate them & i use a plot area graph. It seems like the variety of genres decreases through time. 
-      (It must consists of months between January-July because my dataset was extracted July 2021 & i want my       graph to be accurate)
-    - I count total streams per year. (7 months for same reason!)
-    - I check if total streams before & after covid are decreasing or increasing. (See the above warnings!)
-    - I count total streams per month. (I exclude 2021 because it consists of 7 months)
-    - I count total streams per year & month.
-    - At last, i find the most popular artists & i check if the most popular artist sings the most popular           genre. Guess what he isn't.
-    - Now it's time for you to see my presentation.
-    
+1. Authors
+    - Stavros Tsiloglou
+    - Nikos Kefalas
+      
+2. Cleaning & Analysis 
+    - First, we read the dataset in order to find empty rows or unnecessary columns that we should drop.
+    - Then we visualized our data, so we could:
+         i. Find highly correlated columns.
+        ii. See the distribution of our data.
+    - The steps we took & the changes we made:
+         i. We created our own range of frequencies for better categorization.
+        ii. We logged our data for a better normal distribution.
+       iii. Reduced dimensions in order to remove noise.
+      iiii. Found the most efficient number of clusters.
+        iv. Named our clusters.
+
 3. Presentation
-    - Thank you for listening!
-    - Thank you for reading me!
+    - Exported the necessary graphs for our presentation.
+    - Thank you for reading!
     
